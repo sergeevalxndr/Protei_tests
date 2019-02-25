@@ -1,0 +1,42 @@
+{
+    "empty_line": {
+        "query": {
+            "name": ""
+        }
+    },
+    "gibberish": {
+        "query": {
+            "name": "pppasdasdasd"
+        }
+    },
+    "city_plus_nums": {
+        "query": {
+            "name": "moscow 99416 16156"
+        }
+    },
+    "city_plus_nums_2": {
+        "query": {
+            "name": "moscow_99416+16156"
+        }
+    },
+    "number_not_exist": {
+        "query": {
+            "name": "99456"
+        }
+    },
+    "city_doesnt_exist": {
+        "query": {
+            "name": "citydoesntexist"
+        }
+    },
+    "city_doesnt_exist_with_spaces_and_comma": {
+        "query": {
+            "name": "city doesn't exist"
+        }
+    },
+    "sql_inject_test": {
+        "query": {
+            "name": "randomthing\""
+        }
+    }
+}

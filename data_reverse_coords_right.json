@@ -1,0 +1,51 @@
+{
+    "Измайловский проспект": {
+        "query": {
+            "lat": "59.91898",
+            "lon": "30.30775",
+            "result": "Измайловский проспект"
+        }
+    },
+    "улица Ефимова, Сенной округ": {
+        "query": {
+            "lat": "59.92433",
+            "lon": "30.32297",
+            "result": "улица Ефимова, Сенной округ"
+        }
+    },
+    "Green Street, Happy Valley": {
+        "query": {
+            "lat": "53.30138",
+            "lon": "-60.31320",
+            "result": "Green Street, Happy Valley"
+        }
+    },
+    "Wio Silimo Cross, Jalan Yos Sudarso": {
+        "query": {
+            "lat": "-4.09842",
+            "lon": "138.94266",
+            "result": "Wio Silimo, Jalan Yos Sudarso"
+        }
+    },
+    "Угольные Копи": {
+        "query": {
+            "lat": "64.72946",
+            "lon": "177.73374",
+            "result": "Угольные Копи"
+        }
+    },
+    "Jiujiang": {
+        "query": {
+            "lat": "31.4607",
+            "lon": "118.3748",
+            "result": "Jiujiang"
+        }
+    },
+    "Австралийская антарктическая территория": {
+        "query": {
+            "lat": "-74.6934",
+            "lon": "47.2851",
+            "result": "AAT"
+        }
+    }
+}

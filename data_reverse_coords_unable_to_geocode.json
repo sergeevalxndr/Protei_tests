@@ -1,0 +1,23 @@
+{
+    "too_large": {
+        "query": {
+            "lat": "509.91898",
+            "lon": "300.30775",
+            "result": "Unable to geocode"
+        }
+    },
+    "too_short": {
+        "query": {
+            "lat": "1",
+            "lon": "1",
+            "result": "Unable to geocode"
+        }
+    },
+    "Бермудский Треугольник": {
+        "query": {
+            "lat": "24.9965437",
+            "lon": "-71.0035889",
+            "result": "Unable to geocode"
+        }
+    }
+}

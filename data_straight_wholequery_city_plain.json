@@ -1,0 +1,44 @@
+{
+    "saint-petersburg": {
+        "query": {
+            "name": "saint-petersburg",
+            "result": "Санкт-Петербург"
+        }
+    },
+    "saint-petersburg_us": {
+        "query": {
+            "name": "saint-petersburg",
+            "result": "St. Petersburg, Pinellas County"
+        }
+    },
+    "moscow": {
+        "query": {
+            "name": "moscow",
+            "result": "Москва"
+        }
+    },
+    "moscow_rus": {
+        "query": {
+            "name": "москва",
+            "result": "Москва"
+        }
+    },
+    "moscow_with_rus_letter_o": {
+        "query": {
+            "name": "mоsсow",
+            "result": "Москва"
+        }
+    },
+    "moscow_with_rus_letter_c": {
+        "query": {
+            "name": "mоsсow",
+            "result": "Москва"
+        }
+    },
+    "moscow_us": {
+        "query": {
+            "name": "moscow",
+            "result": "Moscow, Latah County"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "lon_str": {
+        "query": {
+            "lat": "1",
+            "lon": "test",
+            "result": 400
+        }
+    },
+    "lat_str": {
+        "query": {
+            "lat": "test",
+            "lon": "1",
+            "result": 400
+        }
+    },
+    "both_str": {
+        "query": {
+            "lat": "test",
+            "lon": "test",
+            "result": 400
+        }
+    },
+    "spec_symbols": {
+        "query": {
+            "lat": "@%!%$%",
+            "lon": "1",
+            "result": 400
+        }
+    }
+}
