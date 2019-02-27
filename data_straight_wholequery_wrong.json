@@ -31,7 +31,7 @@
     },
     "city_doesnt_exist_with_spaces_and_comma": {
         "query": {
-            "name": "city doesn't exist"
+            "name": "citydoesn't exist"
         }
     },
     "sql_inject_test": {
