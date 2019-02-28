@@ -97,11 +97,12 @@ def straight_query_to_coords(query):
     response = get_response_straight_wholequery(query)
     eps = 0.001
     for line in response:
-        diff = abs(query["lat"] - float(line.get("lat", False)))
-        diff += abs(query["lon"] - float(line.get("lon", False)))
-        if diff < eps:
+        diff = (query["lat"] - float(line.get("lat", False))) ** 2
+        diff += (query["lon"] - float(line.get("lon", False))) ** 2
+        if diff ** 0.5 < eps:
             return True
     return response
+
 
 def straight_param_country_valid(query):
     response = get_response_straight_country(query)
